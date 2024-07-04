@@ -148,6 +148,8 @@ class LocalNotifcationsServices {
       "GoodChannelId",
       "GoodChannelName",
       importance: Importance.max,
+      priority: Priority.max
+      
     );
     const iosDetails = DarwinNotificationDetails(
     );
@@ -176,6 +178,7 @@ class LocalNotifcationsServices {
       "GoodChannelId",
       "GoodChannelName",
       importance: Importance.max,
+      priority: Priority.max
     );
     const iosDetails = DarwinNotificationDetails(
     );
